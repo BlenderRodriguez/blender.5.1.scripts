@@ -20,6 +20,8 @@ This repo contains a Blender add-on for running Python scripts from a folder, pl
   Cleanup focused on CAD and import meshes.
 - `scripts/cleanup/mesh_cleanup_scan.py`
   Cleanup focused on scan and photogrammetry meshes.
+- `scripts/geometry_nodes/setup_surface_subdivision_viewport_render.py`
+  Creates a geometry-nodes subdivision setup with separate viewport and render levels.
 
 ## Add-on Features
 
