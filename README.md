@@ -10,6 +10,16 @@ This repo contains a Blender add-on for running Python scripts from a folder, pl
   Moves the selected mesh object(s) so the lowest visible vertex sits at world `Z = 0`.
 - `scripts/move_selected_vertices_to_z0.py`
   Moves selected vertices in Edit Mode to world `Z = 0`.
+- `scripts/unpack_resources_next_to_blend.py`
+  Unpacks packed resources next to the current saved `.blend` file.
+- `scripts/cleanup/mesh_cleanup_gentle.py`
+  Safe, light cleanup for selected mesh objects.
+- `scripts/cleanup/mesh_cleanup_aggressive.py`
+  Stronger cleanup for messier geometry.
+- `scripts/cleanup/mesh_cleanup_cad_import.py`
+  Cleanup focused on CAD and import meshes.
+- `scripts/cleanup/mesh_cleanup_scan.py`
+  Cleanup focused on scan and photogrammetry meshes.
 
 ## Add-on Features
 
