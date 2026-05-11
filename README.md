@@ -12,6 +12,12 @@ This repo contains a Blender add-on for running Python scripts from a folder, pl
   Moves selected vertices in Edit Mode to world `Z = 0`.
 - `scripts/unpack_resources_next_to_blend.py`
   Unpacks packed resources next to the current saved `.blend` file.
+- `scripts/rendering/quick_mask.py`
+  Applies black/white mask materials and render settings for quick object-mask renders.
+- `scripts/create_step_pyramid.py`
+  Creates a parameterized stepped pyramid mesh with a simple limestone material.
+- `scripts/create_open_step_pyramid_mesh.py`
+  Creates a single open stepped pyramid mesh instead of stacked block geometry.
 - `scripts/cleanup/mesh_cleanup_gentle.py`
   Safe, light cleanup for selected mesh objects.
 - `scripts/cleanup/mesh_cleanup_aggressive.py`
@@ -22,6 +28,10 @@ This repo contains a Blender add-on for running Python scripts from a folder, pl
   Cleanup focused on scan and photogrammetry meshes.
 - `scripts/geometry_nodes/setup_surface_subdivision_viewport_render.py`
   Creates a geometry-nodes subdivision setup with separate viewport and render levels.
+- `scripts/geometry_nodes/setup_step_pyramid_geometry_nodes.py`
+  Creates a procedural stepped pyramid Geometry Nodes setup with exposed controls.
+- `scripts/geometry_nodes/setup_open_step_pyramid_geometry_nodes.py`
+  Creates a procedural open stepped pyramid Geometry Nodes setup as one connected shell.
 
 ## Add-on Features
 
